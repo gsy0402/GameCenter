@@ -14,7 +14,7 @@
         <relationship name="comments" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="parentGame" inverseEntity="Comment" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Game" positionX="-63" positionY="-18" width="128" height="118"/>
         <element name="Comment" positionX="124.875" positionY="-11.58984375" width="128" height="103"/>
+        <element name="Game" positionX="-63" positionY="-18" width="128" height="120"/>
     </elements>
 </model>

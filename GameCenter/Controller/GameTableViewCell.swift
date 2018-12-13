@@ -12,6 +12,9 @@ class GameTableViewCell: UITableViewCell {
 
     //MARK: - Properties
     
+    @IBOutlet weak var gameImageView: UIImageView!
+    @IBOutlet weak var gameNameLabel: UILabel!
+    @IBOutlet weak var gamePriceLabel: UILabel!
     
     
     override func awakeFromNib() {
