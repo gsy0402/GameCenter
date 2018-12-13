@@ -1,0 +1,6 @@
+framework module Pods_GameCenter {
+  umbrella header "Pods-GameCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
